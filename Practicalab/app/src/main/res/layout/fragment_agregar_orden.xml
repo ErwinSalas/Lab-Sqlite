@@ -1,0 +1,66 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pavilion.practicalab.AgregarOrdenFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            style="@style/Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nueva"
+
+            android:id="@+id/textView2" />
+
+        <EditText
+            style="@style/Inputs"
+            android:layout_width="match_parent"
+            android:hint="@string/codigo"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextCodigoOrden" />
+
+        <EditText
+            style="@style/Inputs"
+            android:hint="@string/codigoPlato"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextCodigoPlato" />
+
+        <EditText
+            style="@style/Inputs"
+            android:hint="@string/hora"
+            android:inputType="time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextHora" />
+        <EditText
+            style="@style/Inputs"
+            android:hint="@string/comentario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextComentario" />
+        <EditText
+            style="@style/Inputs"
+            android:hint="@string/locale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextLocalizacion" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="guardar"
+            android:id="@+id/button" />
+    </LinearLayout>
+
+</FrameLayout>
